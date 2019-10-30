@@ -18,7 +18,7 @@ pipeline {
         }
         stage('build') {
         steps {
-        sh 'sh -x $WORKSPACE/testscript.sh'
+        sh 'sh -x $WORKSPACE/test.sh'
         }
         }
     }
